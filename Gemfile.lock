@@ -135,10 +135,11 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  x86_64-darwin-19
   x86_64-linux
 
 DEPENDENCIES
-  bundler (~> 2.2.29)
+  bundler (~> 2.3.3)
   jekyll (~> 4.2, >= 4.1.1)
   jekyll-admin (~> 0.11.0)
   jekyll-feed (~> 0.13.0)
@@ -157,4 +158,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.29
+   2.3.3
