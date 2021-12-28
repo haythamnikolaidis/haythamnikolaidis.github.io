@@ -80,13 +80,18 @@ author_education_details:
 author_project_details:
               - project_thumbnail: projects/outsurance.webp
                 project_title: OUTsurance Mobile App
-                project_description: The OUTsurance app allows you to check your insurance policy information including the date and amount of your next OUTbonus payment.
+                project_description: The OUTsurance mobile application is build using Xamarin forms and is supported by a .Net Core API backend. New feature development has seen us moving parts of the supporting API to Kubernetes clusters hosted in Azure for high availability micro-services that enable future integrations.
                 project_url: https://play.google.com/store/apps/details?id=za.co.outsurance&hl=en_ZA&gl=US
                 visibility: true
               - project_thumbnail: projects/BrandWorx_Logo_White_Background_1x.png
                 project_title: Brandworx Mobile App
                 project_description: A cross platform application build using Xamarin
                 project_url: https://tangentsolutions.co.za/case_studies/brandworx-2021/
+                visibility: true
+              - project_thumbnail: projects/TravelIt Logo.webp
+                project_title: TravelIT Mobile Travel Companion
+                project_description: A cross platform application build using Xamarin
+                project_url: 
                 visibility: true
 
 # social links
