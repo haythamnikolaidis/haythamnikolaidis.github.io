@@ -17,7 +17,7 @@ layout: default
         {% if site.data.portfolio.twitter_username %}
         <a
           class="social-link"
-          href="http://twitter.com/{{ site.twitter_username }}"
+          href="http://twitter.com/{{ site.data.portfolio.twitter_username }}"
         >
           <i class="fab fa-twitter"></i>
         </a>
@@ -28,12 +28,12 @@ layout: default
         >
           <i class="fab fa-facebook-f"></i>
         </a>
-        {% endif %} {% if site.data.portfolio.instagram_username %}
+        {% endif %} {% if site.data.portfolio.openprocessing_userid %}
         <a
           class="social-link"
-          href="http://instagram.com/{{ site.instagram_username }}"
+          href="https://openprocessing.org/user/{{ site.data.portfolio.openprocessing_userid }}/?view=sketches"
         >
-          <i class="fab fa-instagram"></i>
+          <img src="https://openprocessing.org/assets/img/logo/logo_36x30_white@2x.png" style="height: 15px;" class="fab"></img>
         </a>
         {% endif %} {% if site.data.portfolio.medium_username %}
         <a
@@ -45,7 +45,7 @@ layout: default
         {% endif %} {% if site.data.portfolio.github_username %}
         <a
           class="social-link"
-          href="http://github.com/{{ site.github_username }}"
+          href="http://github.com/{{ site.data.portfolio.github_username }}"
         >
           <i class="fab fa-github"></i>
         </a>
@@ -59,7 +59,7 @@ layout: default
         {% endif %} {% if site.data.portfolio.linkedin_username %}
         <a
           class="social-link"
-          href="http://linkedin.com/in/{{ site.linkedin_username }}"
+          href="http://linkedin.com/in/{{ site.data.portfolio.linkedin_username }}"
         >
           <i class="fab fa-linkedin-in"></i>
         </a>
