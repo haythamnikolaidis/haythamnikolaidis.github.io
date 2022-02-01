@@ -1,22 +1,27 @@
 <!-- Getform form https://getform.io -->
 
 <!-- Add the getform-endpoint in config.yml -->
-<form action="https://getform.io/f/{{site.getform_endpoint}}" enctype="multipart/form-data" method="POST"  target="_blank">
+<script type="text/javascript">var submitted=false;</script>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted){window.location='/thankyou.html';}"></iframe>
+    
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfZelVjIEkRMTckxGo7fNbMZHhZbqjG7Ygp8erV7goubQlXAQ/formResponse" enctype="multipart/form-data" method="POST" target="hidden_iframe" onsubmit="submitted=true">
     <div class="form-group">
             <label for="contact_form_name">Your Name :</label>
-            <input type="text" class="form-control" name="name" id="contact_form_name" placeholder="Enter Your Name">
+            <input type="text" class="form-control" name="entry.2005620554" id="contact_form_name" placeholder="Enter Your Name" required>
            </div>
            <div class="form-group">
              <label for="contact_form_email">Your Email :</label>
-            <input type="email" class="form-control" name="email" id="contact_form_email" placeholder="Enter Your Email">
+            <input type="email" class="form-control" name="emailAddress" id="contact_form_email" placeholder="Enter Your Email" required>
            </div>
+           <div class="form-group">
+             <label for="contact_form_subject"> Your Subject :</label>
+            <input name="entry.1481758461" class="form-control" id="contact_form_subject" placeholder="Enter Your subject" />
+           </div>
+
            <div class="form-group">
              <label for="contact_form_message"> Your Message :</label>
-            <textarea name="message" class="form-control" id="contact_form_message" placeholder="Enter Your Message"></textarea>
-           </div>
-           <div class="form-group">
-               <label for="contact-form-file"> Attachments :</label>
-            <input type="file" name="file" class="form-control" id="contact-form-file" placeholder="Attach files"/>
+            <textarea name="entry.839337160" class="form-control" id="contact_form_message" placeholder="Enter Your Message" required></textarea>
            </div>
             <button type="submit" value="Send" class="btn btn-lg btn-dark">Submit</button>
 </form>
