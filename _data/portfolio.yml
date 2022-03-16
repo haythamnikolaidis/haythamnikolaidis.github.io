@@ -94,6 +94,18 @@ author_project_details:
                 project_url: 
                 visibility: true
 
+# open processing sketches
+sketches:
+  - url: https://openprocessing.org/sketch/1466442/embed/       
+  - url: https://openprocessing.org/sketch/1447607/embed/       
+  - url: https://openprocessing.org/sketch/1446100/embed/       
+    image: bifrication_tumb.jpeg
+    alt: A visual experiment inspired by foobar with Google
+    video: bifrication_vid.webm
+  - url: https://openprocessing.org/sketch/1423254/embed/      
+  - url: https://openprocessing.org/sketch/1392746/embed/
+  - url: https://openprocessing.org/sketch/1329811/embed/ 
+
 # social links
 twitter_username: IvanKrug3r
 github_username:  haythamnikolaidis

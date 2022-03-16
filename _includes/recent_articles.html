@@ -6,6 +6,21 @@
   </div>
   <br />
 
+  <ul style="display: flex;
+             justify-content: flex-start;
+             gap: 1em;
+             flex-wrap: wrap;">
+    {% for sketch in site.data.portfolio.sketches %}
+    <li class="article-card">
+        <a href="{{sketch.url}}">
+            <video width=300px height=300px title="{{sketch.alt}}" poster="{{site.url}}{{site.baseurl}}/assets/img/sketches/{{sketch.image}}" autoplay loop muted>
+                <source src="{{site.url}}{{site.baseurl}}/assets/img/sketches/{{sketch.video}}" type="video/webm"/>
+            </video>
+        </a>
+    </li>
+    {% endfor %}
+  </ul>
+
   <ul>
     {% for post in site.posts limit:5 %}
     <li class="article-card">
