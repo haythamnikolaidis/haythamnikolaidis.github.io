@@ -29,7 +29,7 @@ author_email: "haythamnikolaidis@gmail.com"
 author_location: South Africa
 author_website_url: "https://haythamnikolaidis.github.io/"
 typewrite-text: A multi-skilled developer from South Africa, with over 10 years development experience.
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: valentin-beauvais-unsplash.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 author_programming_languages: [C# (Highly Proficient),Java (Proficient),Swift (Proficient),JavaScript (Proficient),C++ (Almost Proficient),Kotlin (Beginner),Rust (Beginner)]
 author_programming_skills: [Android Development,iOS development,Software Development,Android SDK,.NET Core,Xamarin.Forms,Docker Products,Azure DevOps]
@@ -96,15 +96,27 @@ author_project_details:
 
 # open processing sketches
 sketches:
-  - url: https://openprocessing.org/sketch/1466442/embed/       
-  - url: https://openprocessing.org/sketch/1447607/embed/       
-  - url: https://openprocessing.org/sketch/1446100/embed/       
+  - url: https://openprocessing.org/sketch/1466442/
+    image: opticalIllution_tumb.jpeg
+    alt: An optical illution that is created by turning concentric segmented cicles
+    video: opticalIllution_vid.webm
+  - url: https://openprocessing.org/sketch/1447607/
+    image: scanLines_thumb.jpeg
+    alt: An attempt to recreate the iconic VHS scan lines effect from the late 80's and early 90's
+  - url: https://openprocessing.org/sketch/1446100/        
     image: bifrication_tumb.jpeg
     alt: A visual experiment inspired by foobar with Google
     video: bifrication_vid.webm
-  - url: https://openprocessing.org/sketch/1423254/embed/      
-  - url: https://openprocessing.org/sketch/1392746/embed/
-  - url: https://openprocessing.org/sketch/1329811/embed/ 
+  - url: https://openprocessing.org/sketch/1423254/
+    image: theBeach_tumb.jpeg
+    alt: Rhythm in Patterns Coding Challenge entry
+  - url: https://openprocessing.org/sketch/1392746/
+    image: backSpin_thumb.jpeg
+    alt: An attampt to recreate the effect of back spin on a ball using vector math.
+    video: backSpin_vid.webm
+  - url: https://openprocessing.org/sketch/1329811/
+    image: circleBoard_thumb.jpeg
+    alt: A grid of quater circle segments that rotate at random times to create patterns.
 
 # social links
 twitter_username: IvanKrug3r
