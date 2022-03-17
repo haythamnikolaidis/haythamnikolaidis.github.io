@@ -2,7 +2,7 @@
 /* change cover_img in config.yml */
 .jumbotron {
     background-color: var(--main-background-color) !important;
-    background-image: url('/assets/img/{{site.hero_cover_img}}');
+    background-image: url('/assets/img/{{site.data.portfolio.hero_cover_img}}');
     text-align: center;
     background-attachment: fixed;
     background-size: cover;
@@ -19,18 +19,19 @@
 </style>
 
 <!-- home hero section -->
-<div class="jumbotron">
-  <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.data.portfolio.author_logo}}" />
-  <p class="jumbotron-heading">Hi, I am {{site.data.portfolio.author}} !</p>
+<div class="jumbotron"> 
+    
+    <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.data.portfolio.author_logo}}" />
+    <p class="jumbotron-heading">Hi, I am {{site.data.portfolio.author}} !</p>
 
-  <p class="lead" id="typewriteText"></p>
-  <!-- uncomment/modify buttons as you want -->
-  <div class="jumbotron-btns">
-    <a href="{{site.url}}{{site.baseurl}}/about">
-      <button class="btn btn-md btn-warning"> <strong>Projects</strong> </button>
-    </a>
-    <a href="{{site.url}}{{site.baseurl}}/contact">
-      <button class="btn btn-md btn-default"> <strong>Contact</strong> </button>
-     </a>
-  </div>
+    <p class="lead" id="typewriteText"></p>
+    <!-- uncomment/modify buttons as you want -->
+    <div class="jumbotron-btns">
+      <a href="{{site.url}}{{site.baseurl}}/about">
+        <button class="btn btn-md btn-warning"> <strong>About</strong> </button>
+      </a>
+      <a href="{{site.url}}{{site.baseurl}}/contact">
+        <button class="btn btn-md btn-default"> <strong>Contact</strong> </button>
+       </a>
+    </div>
 </div>

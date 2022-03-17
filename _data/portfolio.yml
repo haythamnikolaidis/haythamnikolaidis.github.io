@@ -29,7 +29,7 @@ author_email: "haythamnikolaidis@gmail.com"
 author_location: South Africa
 author_website_url: "https://haythamnikolaidis.github.io/"
 typewrite-text: A multi-skilled developer from South Africa, with over 10 years development experience.
-hero_cover_img: valentin-beauvais-unsplash.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: # zak-unsplash.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 author_programming_languages: [C# (Highly Proficient),Java (Proficient),Swift (Proficient),JavaScript (Proficient),C++ (Almost Proficient),Kotlin (Beginner),Rust (Beginner)]
 author_programming_skills: [Android Development,iOS development,Software Development,Android SDK,.NET Core,Xamarin.Forms,Docker Products,Azure DevOps]
@@ -117,6 +117,14 @@ sketches:
   - url: https://openprocessing.org/sketch/1329811/
     image: circleBoard_thumb.jpeg
     alt: A grid of quater circle segments that rotate at random times to create patterns.
+
+games:
+  - title: CyberDROP
+    url: https://haythamnikolaidis.itch.io/cyberdrop
+    image: cyberdrop.png 
+  - title: The back-up plan
+    url: https://haythamnikolaidis.itch.io/the-back-up-plan
+    image: the-back-up-plan.jpg
 
 # social links
 twitter_username: IvanKrug3r

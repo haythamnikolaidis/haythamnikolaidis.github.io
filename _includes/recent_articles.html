@@ -1,7 +1,7 @@
 <section id="recent-articles">
   <div id="recent-articles-header">
     <div id="recent-articles-title">
-      <h1 class="card-title">Projects</h1>
+      <h1 class="card-title">Creative Coding</h1>
     </div>
   </div>
   <br />
@@ -54,3 +54,26 @@
     {% endfor %}
   </ul>
 </section>
+
+<section id="games">
+  <div id="games-header">
+    <div id="games-title">
+      <h1 class="card-title">Game Projects</h1>
+    </div>
+  </div>
+  <br />
+
+  <ul style="display: flex;
+             justify-content: flex-start;
+             gap: 1em;
+             flex-wrap: wrap;">
+    {% for game in site.data.portfolio.games %}
+    <li class="article-card">
+        <p>{{game.title}}</p> 
+        <a href="{{game.url}}">
+            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{game.image}}" alt="{{game.alt}}" />
+        </a>
+    </li>
+    {% endfor %}
+  </ul>
+
